@@ -89,8 +89,6 @@ function pizzaMenu2() {
 
     pizza_menu.add_title('Extra Options', 4.25, 6.5)
     pizza_menu.add_title('--Insert Price Here--', 4.25, 6.8, null, null, 10)
-    pizza_menu.add_body()
-
 
 }
 
