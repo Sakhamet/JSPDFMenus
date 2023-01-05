@@ -12,7 +12,8 @@
         "adler32cs": "github:chick307/adler32cs.js",
         "cf-blob.js": "0.0.1",
         "filesaver.js": "github:andyinabox/FileSaver.js",
-        "jspdf": "^2.5.1"
+        "jspdf": "^2.5.1",
+        "jspdf-autotable": "^3.5.28"
       },
       "devDependencies": {
         "babel-preset-es2015-rollup": "^1.1.1",
@@ -1842,6 +1843,14 @@
         "core-js": "^3.6.0",
         "dompurify": "^2.2.0",
         "html2canvas": "^1.0.0-rc.5"
+      }
+    },
+    "node_modules/jspdf-autotable": {
+      "version": "3.5.28",
+      "resolved": "https://registry.npmjs.org/jspdf-autotable/-/jspdf-autotable-3.5.28.tgz",
+      "integrity": "sha512-eNYt5mUxCGa1Y0bmOhGXU+Va/P2jNkgOgUPGIpZp2rbZUauU34s0q3S59Jps5zi2u90nQy7DmD/D+sdesJLIEA==",
+      "peerDependencies": {
+        "jspdf": "^2.5.1"
       }
     },
     "node_modules/jspdf/node_modules/core-js": {
@@ -5119,6 +5128,12 @@
           "optional": true
         }
       }
+    },
+    "jspdf-autotable": {
+      "version": "3.5.28",
+      "resolved": "https://registry.npmjs.org/jspdf-autotable/-/jspdf-autotable-3.5.28.tgz",
+      "integrity": "sha512-eNYt5mUxCGa1Y0bmOhGXU+Va/P2jNkgOgUPGIpZp2rbZUauU34s0q3S59Jps5zi2u90nQy7DmD/D+sdesJLIEA==",
+      "requires": {}
     },
     "keygrip": {
       "version": "1.1.0",
